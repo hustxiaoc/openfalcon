@@ -11,4 +11,8 @@ cd /src/open-falcon
 ./open-falcon start
 
 cd  /src/dashboard
+virtualenv ./env
+
+./env/bin/pip install -r pip_requirements.txt -i https://pypi.douban.com/simple
+
 python wsgi.py
