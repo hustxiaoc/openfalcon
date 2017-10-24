@@ -1,6 +1,7 @@
 #/bin/bash
 cd  /dashboard 
 virtualenv ./env && ./env/bin/pip install -r pip_requirements.txt -i https://pypi.douban.com/simple
+./env/bin/python wsgi.py
 
 cd /tmp/falcon-plus/scripts/mysql/db_schema/
 mysql -h 127.0.0.1 -u root -p < 1_uic-db-schema.sql
