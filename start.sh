@@ -16,4 +16,5 @@
 # ./env/bin/pip install -r pip_requirements.txt -i https://pypi.douban.com/simple
 #
 # python wsgi.py
+
 python -m SimpleHTTPServer 9002
