@@ -17,4 +17,4 @@
 #
 # python wsgi.py
 
-python -m SimpleHTTPServer 9002
+python /src/server/server.py
